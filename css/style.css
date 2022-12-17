@@ -220,6 +220,8 @@ body {
 }
 .tender-img {
   display: block;
+  width: 370px;
+  height: 294px;
 }
 
 .bg-title {
