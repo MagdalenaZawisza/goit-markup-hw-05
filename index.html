@@ -24,10 +24,13 @@
       <div class="container menu-box">
         <div class="first-menu-box">
           <h2 class="logo"><span class="first-part-logo">Web</span>Studio</h2>
+          <!-- Nawigacja -->
           <nav>
             <ul class="list">
-              <li><a class="menu-nav" href="index.html">Agencja</a></li>
-              <li><a class="menu-nav" href="portfolio.html">Pordfolio</a></li>
+              <li>
+                <a class="menu-nav-active" href="index.html">Agencja</a>
+              </li>
+              <li><a class="menu-nav" href="portfolio.html">Portfolio</a></li>
               <li><a class="menu-nav" href="/contact">Kontakt</a></li>
             </ul>
           </nav>
@@ -47,18 +50,20 @@
       </div>
     </header>
     <main>
+      <!--HERO-->
       <section class="primary">
-        <!--HERO-->
         <div class="container">
           <h1 class="primary-title">
             Efektywne rozwiązania dla waszego biznesu
           </h1>
-          <button class="primary-bg" type="button">Zamów usługe</button>
+          <button class="primary-bg" type="button" data-modal-open>
+            Zamów usługe
+          </button>
         </div>
       </section>
+      <!--NASZE ATUTY-->
       <section class="section">
         <div class="container">
-          <!--NASZE ATUTY-->
           <ul class="list">
             <li>
               <div class="icon-advantages-box">
@@ -111,40 +116,49 @@
           </ul>
         </div>
       </section>
+      <!--OFERTA-->
       <section class="section">
-        <!--OFERTA-->
         <div class="container">
           <h2 class="tender-title">Czym się zajmujemy</h2>
           <ul class="list">
             <li>
-              <img
-                src="images/programming.jpg"
-                alt="pisanie programów"
-                width="370"
-                height="294"
-              />
+              <div class="tender-img">
+                <img
+                  src="images/programming.jpg"
+                  alt="pisanie programów"
+                  width="370"
+                  height="294"
+                />
+                <p class="bg-title">Aplikacje komputerowe</p>
+              </div>
             </li>
             <li>
-              <img
-                src="images/mobile-applications.jpg"
-                alt="tworzenie aplikacji mobilnych"
-                width="370"
-                height="294"
-              />
+              <div class="tender-img">
+                <img
+                  src="images/mobile-applications.jpg"
+                  alt="tworzenie aplikacji mobilnych"
+                  width="370"
+                  height="294"
+                />
+                <p class="bg-title">Aplikacje mobilne</p>
+              </div>
             </li>
             <li>
-              <img
-                src="images/ux-design.png"
-                alt="tworzenie z UX designe"
-                width="370"
-                height="294"
-              />
+              <div class="tender-img">
+                <img
+                  src="images/ux-design.png"
+                  alt="tworzenie z UX designe"
+                  width="370"
+                  height="294"
+                />
+                <p class="bg-title">Rozwiązania graficzne</p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
+      <!--ZESPÓŁ-->
       <section class="section">
-        <!--ZESPÓŁ-->
         <div class="team">
           <div class="container">
             <h2 class="team-title">Nasz zespół</h2>
@@ -409,8 +423,8 @@
           </div>
         </div>
       </section>
+      <!--KLIENCI-->
       <section>
-        <!--KLIENCI-->
         <section class="section">
           <div class="container">
             <h2 class="team-title">Nasi klienci</h2>
@@ -450,6 +464,7 @@
         </section>
       </section>
     </main>
+    <!--FOOTER-->
     <footer>
       <div class="contact">
         <div class="container">
@@ -543,5 +558,11 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="close-btn" data-modal-close>&times</button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
