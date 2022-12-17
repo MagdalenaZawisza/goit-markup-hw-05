@@ -140,7 +140,7 @@ body {
   position: relative;
   top: 32px;
 }
-
+/* hero */
 .primary {
   background-color: var(--bg-color);
   background-image: url(../images/header-img.jpg),
@@ -209,7 +209,6 @@ body {
 }
 
 /* oferta */
-
 .tender-title {
   font-weight: 700;
   font-size: 36px;
@@ -514,15 +513,17 @@ body {
   position: fixed;
   left: 0;
   top: 0;
+  bottom: 0;
+  right: 0;
   width: 100%;
   height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 .modal {
-  position: absolute;
-  left: 35%;
-  top: 25%;
   width: 528px;
   min-height: 581px;
   background-color: var(--white-color);
