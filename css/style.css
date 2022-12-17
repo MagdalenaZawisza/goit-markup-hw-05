@@ -220,8 +220,6 @@ body {
 }
 .tender-img {
   display: block;
-  width: 370px;
-  height: 294px;
 }
 
 .bg-title {
@@ -236,8 +234,6 @@ body {
   padding: 27px 90px;
   z-index: 1;
   position: relative;
-  width: 370px;
-  height: 70px;
   top: -70px;
   left: 0;
 }
@@ -522,7 +518,7 @@ body {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   z-index: 1;
- }
+}
 .modal {
   position: absolute;
   left: 35%;
@@ -533,7 +529,7 @@ body {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
- }
+}
 
 .close-btn {
   position: absolute;
