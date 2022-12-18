@@ -125,7 +125,6 @@ body {
   color: var(--brand-color);
 }
 .menu-nav-active {
-  position: relative;
   text-decoration: none;
   cursor: pointer;
   color: var(--brand-color);
@@ -522,7 +521,6 @@ body {
   align-items: center;
   background-color: rgba(0, 0, 0, 0.2);
   z-index: 1;
-
 }
 .modal {
   position: absolute;
@@ -543,7 +541,6 @@ body {
   transform: scale(1.5);
 }
 
-
 .close-btn {
   position: absolute;
   top: 8px;
@@ -554,7 +551,6 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   cursor: pointer;
-   
 }
 
 .is-hidden {
